@@ -1,0 +1,270 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 16px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        top: calc(56.289vw - 32px);
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 16px;
+    }
+
+
+    .page_head .menu_btn .icon
+    {
+        width: 22px;
+        height: 17px;
+    }
+
+
+    .page_desc
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .label .tooltip .text
+    {
+        width: 204px;
+    }
+
+
+    .form .file label,
+    .form .file label div
+    {
+        width: 100%;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 14px;
+
+        width: 76px;
+        height: 76px;
+    }
+
+
+
+    /*---------------
+        Home page
+    ---------------*/
+    .home_apge .data:before
+    {
+        top: -24px;
+
+        width: 324px;
+        height: 87px;
+    }
+
+
+    .home_apge .title
+    {
+        font-size: 64px;
+    }
+
+
+    .home_apge .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .home_apge .link
+    {
+        bottom: 24px;
+    }
+
+
+
+    /*-------------
+        Numbers
+    -------------*/
+    .numbers
+    {
+        padding-top: 240px;
+    }
+
+
+
+    /*---------------------
+        Message success
+    ---------------------*/
+    .message_success .title br
+    {
+        display: none;
+    }
+
+
+    .message_success .link a
+    {
+        font-size: 14px;
+
+        width: 76px;
+        height: 76px;
+    }
+
+
+
+    /*-----------------------
+        Search result page
+    -----------------------*/
+    .search_result_page
+    {
+        padding: 120px 0 8px;
+    }
+
+
+    .search_result_page .result .title,
+    .search_result_page .result .title.small
+    {
+        font-size: 28px;
+    }
+
+
+    .search_result_page .result .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .search_result_page .people
+    {
+        margin-top: 24px;
+    }
+
+
+    .search_result_page .link
+    {
+        margin-top: 52px;
+        padding: 16px;
+    }
+
+
+
+    /*-----------------
+        People page
+    -----------------*/
+    .people_page
+    {
+        padding-top: 308px;
+    }
+
+
+
+    .people .person
+    {
+        background: none;
+    }
+
+
+    .people .person .info
+    {
+        padding: 10px 0 0;
+    }
+
+
+    .people .person .name
+    {
+        font-size: 20px;
+    }
+
+
+    .people .person .years
+    {
+        font-size: 12px;
+        line-height: 100%;
+
+        margin-top: 6px;
+    }
+
+
+
+    /*-----------------
+        Search page
+    -----------------*/
+    .search_page
+    {
+        padding: 64px 0;
+    }
+
+
+    .search_page .data
+    {
+        width: 324px;
+        height: 324px;
+    }
+
+
+    .search_page form
+    {
+        width: 288px;
+        height: 288px;
+        padding: 32px;
+    }
+
+
+    .search_page form:before
+    {
+        width: calc(100% - 32px);
+        height: calc(100% - 32px);
+    }
+
+
+    .search_page form .input
+    {
+        font-size: 17px;
+    }
+
+
+    .search_page form .close_btn
+    {
+        bottom: 28px;
+    }
+
+
+    .search_page .mob_exp
+    {
+        font-size: 14px;
+
+        margin-top: 48px;
+    }
+}

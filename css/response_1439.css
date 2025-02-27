@@ -1,0 +1,568 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 16px;
+        --font_size_title: 48px;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .swiper-button-next .icon,
+    .swiper-button-prev .icon
+    {
+        width: 16px;
+        height: 28px;
+    }
+
+
+    .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 40px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 0;
+    }
+
+
+    .page_desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 40px;
+        line-height: 100%;
+
+        margin-bottom: 24px !important;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .label
+    {
+        font-size: 22px;
+        line-height: 100%;
+
+        margin-bottom: 10px;
+    }
+
+
+    .form .input
+    {
+        height: 54px;
+        padding: 0 15px;
+    }
+
+
+    .form .file label div
+    {
+        width: 200px;
+        height: 54px;
+    }
+
+
+    .form .label .tooltip .text
+    {
+        line-height: 16px;
+    }
+
+
+    .form .submit_btn
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    /*---------------
+        Home page
+    ---------------*/
+    .home_apge .data:before
+    {
+        top: -60px;
+
+        width: 600px;
+        height: 220px;
+    }
+
+
+    .home_apge .title
+    {
+        font-size: 120px;
+        line-height: 100%;
+    }
+
+
+    .home_apge .title span:before,
+    .home_apge .title span:after
+    {
+        width: 320px;
+        margin-right: 60px;
+    }
+
+    .home_apge .title span:after
+    {
+        margin-right: 0;
+        margin-left: 60px;
+    }
+
+
+    .home_apge .desc
+    {
+        font-size: 22px;
+        line-height: 100%;
+
+        margin-top: 12px;
+    }
+
+
+    .home_apge .link
+    {
+        font-size: 22px;
+
+        bottom: 40px;
+    }
+
+
+
+    /*---------------
+        Menu page
+    ---------------*/
+    .menu_page .links
+    {
+        font-size: 40px;
+
+        gap: 28px;
+    }
+
+
+
+    /*-------------
+        Numbers
+    -------------*/
+    .numbers
+    {
+        padding-top: 200px;
+    }
+
+
+    .numbers .links
+    {
+        font-size: 22px;
+        line-height: 100%;
+
+        gap: 8px;
+    }
+
+
+    .numbers .links .btn[data-content='1'] .line2
+    {
+        margin-left: 844px;
+    }
+
+    .numbers .links .btn[data-content='1'] .img
+    {
+        margin-left: 806px;
+    }
+
+    .numbers .links .btn[data-content='1']:hover .line1,
+    .numbers .links .btn[data-content='1'].active .line1
+    {
+        width: 840px;
+    }
+
+
+    .numbers .links .btn[data-content='2'] .line2
+    {
+        margin-left: 257px;
+    }
+
+    .numbers .links .btn[data-content='2'] .img
+    {
+        margin-left: 191px;
+    }
+
+    .numbers .links .btn[data-content='2']:hover .line1,
+    .numbers .links .btn[data-content='2'].active .line1
+    {
+        width: 287px;
+    }
+
+
+    .numbers .links .btn[data-content='3'] .line2
+    {
+        margin-top: 83px;
+        margin-left: 156px;
+    }
+
+    .numbers .links .btn[data-content='3'] .img
+    {
+        margin-top: 66px;
+        margin-left: 696px;
+    }
+
+    .numbers .links .btn[data-content='3']:hover .line1,
+    .numbers .links .btn[data-content='3'].active .line1
+    {
+        width: 180px;
+    }
+
+    .numbers .links .btn[data-content='3']:hover .line2,
+    .numbers .links .btn[data-content='3'].active .line2
+    {
+        width: 508px;
+    }
+
+
+    .numbers .links .btn[data-content='4'] .line2
+    {
+        margin-top: 23px;
+        margin-left: 164px;
+    }
+
+    .numbers .links .btn[data-content='4'] .img
+    {
+        margin-top: 44px;
+        margin-left: 372px;
+    }
+
+    .numbers .links .btn[data-content='4']:hover .line1,
+    .numbers .links .btn[data-content='4'].active .line1
+    {
+        width: 168px;
+        height: 34px;
+    }
+
+    .numbers .links .btn[data-content='4']:hover .line2,
+    .numbers .links .btn[data-content='4'].active .line2
+    {
+        width: 305px;
+        height: 20px;
+    }
+
+
+    .numbers .links .btn[data-content='6'] .line2
+    {
+        margin-left: 131px;
+    }
+
+    .numbers .links .btn[data-content='6'] .img
+    {
+        margin-top: 26px;
+        margin-left: 86px;
+    }
+
+    .numbers .links .btn[data-content='6']:hover .line1,
+    .numbers .links .btn[data-content='6'].active .line1
+    {
+        width: 143px;
+    }
+
+    .numbers .links .btn[data-content='6']:hover .line2,
+    .numbers .links .btn[data-content='6'].active .line2
+    {
+        height: 40px;
+    }
+
+
+    .numbers .content
+    {
+        width: calc(100% - 185px);
+        margin-top: 0;
+    }
+
+
+    .numbers .content .info
+    {
+        width: 320px;
+        margin-top: 28px;
+        padding: 28px 12px 28px 28px;
+
+        gap: 24px;
+    }
+
+
+    .numbers .content .info .desc
+    {
+        width: calc(100% + 15px);
+        margin-left: -15px;
+        padding-right: 0;
+        padding-left: 14px;
+    }
+
+
+    .numbers .content .slider
+    {
+        width: calc(100% - 360px);
+    }
+
+
+    .numbers .content .slider .caption
+    {
+        padding: 16px 24px;
+    }
+
+
+    .numbers .link
+    {
+        font-size: 22px;
+
+        bottom: 40px;
+    }
+
+
+
+    /*-------------------------
+        Privacy policy page
+    -------------------------*/
+    .privacy_policy_page
+    {
+        padding: 160px 0 60px;
+    }
+
+
+
+    /*---------------------
+        Message success
+    ---------------------*/
+    .message_success .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .message_success .link a
+    {
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    /*----------------
+        Books page
+    ----------------*/
+    .books_page
+    {
+        padding: 88px 0 120px;
+    }
+
+
+    .books_page .page_title
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .books_page .item
+    {
+        font-size: 20px;
+    }
+
+
+    .books_page .link
+    {
+        font-size: 22px;
+
+        bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Send story
+    ----------------*/
+    .send_story_page
+    {
+        padding: 88px 0 40px;
+    }
+
+
+    .send_story_page .head .desc
+    {
+        font-size: 18px;
+
+        margin-top: 24px;
+    }
+
+
+    .send_story_page .form .desc
+    {
+        font-size: 18px;
+
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------------------
+        Search result page
+    -----------------------*/
+    .search_result_page
+    {
+        padding: 180px 0 16px;
+    }
+
+
+    .search_result_page .close_btn
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .search_result_page form .input
+    {
+        font-size: 22px;
+
+        padding-bottom: 15px;
+    }
+
+
+    .search_result_page .result
+    {
+        margin-top: 60px;
+    }
+
+
+    .search_result_page .result .title
+    {
+        line-height: 100%;
+    }
+
+
+    .search_result_page .result .desc
+    {
+        font-size: 20px;
+
+        width: 680px;
+    }
+
+
+    .search_result_page .people
+    {
+        margin-top: 60px;
+    }
+
+
+    .search_result_page .link
+    {
+        font-size: 22px;
+
+        margin-top: 100px;
+    }
+
+
+
+
+    /*-----------------
+        People page
+    -----------------*/
+    .people_page
+    {
+        padding-top: 220px;
+    }
+
+
+
+    .people .person .name
+    {
+        font-size: 30px;
+    }
+
+
+
+    /*-----------------
+        Search page
+    -----------------*/
+    .search_page .data
+    {
+        width: 520px;
+        height: 520px;
+        margin-top: 40px;
+    }
+
+
+    .search_page .tooltip .text
+    {
+        width: 280px;
+        margin-left: 20px;
+        padding: 9px;
+    }
+
+
+    .search_page form
+    {
+        width: 464px;
+        height: 464px;
+        padding: 60px;
+    }
+
+
+    .search_page form:before
+    {
+        width: calc(100% - 48px);
+        height: calc(100% - 48px);
+    }
+
+
+    .search_page form .input
+    {
+        font-size: 22px;
+    }
+
+
+    .search_page form .submit_btn
+    {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+
+    .search_page form .close_btn
+    {
+        font-size: 22px;
+        line-height: 100%;
+
+        bottom: 48px;
+    }
+}

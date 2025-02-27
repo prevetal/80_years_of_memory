@@ -1,0 +1,551 @@
+@media print,
+(max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+    }
+
+
+    .swiper-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        top: calc(56.289vw - 48px);
+        bottom: auto;
+    }
+
+
+    .swiper-horizontal > .swiper-scrollbar,
+    .swiper-scrollbar.swiper-scrollbar-horizontal
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 24px;
+    }
+
+
+    .page_head .cont
+    {
+        justify-content: flex-start;
+
+        gap: 24px;
+    }
+
+
+    .page_head .cont > div:first-child
+    {
+        order: 2;
+
+        width: 100%;
+        max-width: 100%;
+        margin-top: 16px;
+
+        text-align: center;
+    }
+
+
+    .page_title
+    {
+        color: #ecd06f;
+    }
+
+
+    .page_desc
+    {
+        font-size: 16px;
+    }
+
+
+    .page_desc .check_btn
+    {
+        display: block;
+
+        margin: 24px auto 0;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 24px;
+
+        margin-bottom: 20px !important;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 24px;
+    }
+
+
+    .form .label
+    {
+        font-size: 20px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .form .submit_btn
+    {
+        font-size: 17px;
+
+        width: 84px;
+        height: 84px;
+    }
+
+
+
+    /*---------------
+        Home page
+    ---------------*/
+    .home_apge .data:before
+    {
+        top: -40px;
+
+        width: 400px;
+        height: 124px;
+    }
+
+
+    .home_apge .title
+    {
+        font-size: 85px;
+    }
+
+
+    .home_apge .title span
+    {
+        display: block;
+    }
+
+
+    .home_apge .title span:before,
+    .home_apge .title span:after
+    {
+        top: -32px;
+        right: auto;
+        bottom: auto;
+        left: -24px;
+
+        width: 200px;
+        margin-right: 0;
+
+        transform: scale(-1, 1);
+    }
+
+    .home_apge .title span:after
+    {
+        top: 100%;
+        right: -24px;
+        left: auto;
+
+        margin-top: 76px;
+        margin-right: 0;
+        margin-left: 0;
+
+        transform: scale(1, 1);
+    }
+
+
+    .home_apge .desc
+    {
+        font-size: 17px;
+    }
+
+
+    .home_apge .link
+    {
+        bottom: 24px;
+    }
+
+
+
+    /*---------------
+        Menu page
+    ---------------*/
+    .menu_page .links
+    {
+        font-size: 36px;
+
+        gap: 25px;
+    }
+
+
+
+    /*-------------
+        Numbers
+    -------------*/
+    .numbers
+    {
+        padding-top: 268px;
+        padding-bottom: 108px;
+    }
+
+
+    .numbers .content
+    {
+        margin-top: 24px;
+    }
+
+
+    .numbers .content .close_btn
+    {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+    }
+
+
+    .numbers .content .close_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .numbers .content .info
+    {
+        margin-top: 48px;
+        padding: 0;
+
+        text-align: center;
+
+        background: none;
+    }
+
+
+    .numbers .content .info .desc
+    {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+
+        color: #9c9c9c;
+        border: none;
+    }
+
+
+    .numbers .content .info .desc:before
+    {
+        display: none;
+    }
+
+
+    .numbers .content .slider .caption
+    {
+        font-size: 12px;
+
+        position: relative;
+
+        padding: 10px 20px 0;
+
+        background: none;
+    }
+
+
+    .numbers .content .slider .caption br
+    {
+        display: none;
+    }
+
+
+    .numbers .link
+    {
+        bottom: 24px;
+    }
+
+
+
+    /*-------------------------
+        Privacy policy page
+    -------------------------*/
+    .privacy_policy_page
+    {
+        padding: 220px 0 40px;
+    }
+
+
+
+    /*---------------------
+        Message success
+    ---------------------*/
+    .message_success .title br
+    {
+        display: none;
+    }
+
+
+    .message_success .link a
+    {
+        font-size: 17px;
+
+        width: 84px;
+        height: 84px;
+    }
+
+
+
+    /*----------------
+        Books page
+    ----------------*/
+    .books_page
+    {
+        padding: 88px 0 160px;
+    }
+
+
+    .books_page .page_title
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .books_page .swiper
+    {
+        pointer-events: none;
+    }
+
+
+    .books_page .swiper-wrapper
+    {
+        display: flex;
+        flex-direction: column;
+
+        height: auto;
+
+        transform: none !important;
+        pointer-events: none;
+
+        gap: 52px;
+    }
+
+
+    .books_page .swiper-slide
+    {
+        visibility: visible;
+
+        width: 100% !important;
+        margin: 0 !important;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    .books_page .item
+    {
+        pointer-events: auto;
+    }
+
+
+
+    /*----------------
+        Send story
+    ----------------*/
+    .send_story_page .head .title
+    {
+        color: #dec46b;
+    }
+
+
+    .send_story_page .head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .send_story_page .form .desc
+    {
+        font-size: 16px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------------------
+        Search result page
+    -----------------------*/
+    .search_result_page
+    {
+        padding: 140px 0 16px;
+    }
+
+
+    .search_result_page .close_btn
+    {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .search_result_page .close_btn .icon
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .search_result_page form .input
+    {
+        font-size: 20px;
+    }
+
+
+    .search_result_page .result
+    {
+        margin-top: 52px;
+    }
+
+
+    .search_result_page .result .title,
+    .search_result_page .result .title.small
+    {
+        font-size: 36px;
+    }
+
+
+    .search_result_page .result .desc
+    {
+        font-size: 17px;
+
+        width: 100%;
+    }
+
+
+    .search_result_page .people
+    {
+        margin-top: 24px;
+    }
+
+
+    .search_result_page .link
+    {
+        margin-top: 60px;
+    }
+
+
+    .search_result_page .bg
+    {
+        display: none;
+    }
+
+
+
+    /*-----------------
+        People page
+    -----------------*/
+    .people_page
+    {
+        padding-top: 340px;
+    }
+
+
+    .people .row > *
+    {
+        width: calc(50% - 20px);
+    }
+
+
+    .people .person .info
+    {
+        padding: 16px;
+    }
+
+
+    .people .person .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-----------------
+        Search page
+    -----------------*/
+    .search_page
+    {
+        padding: 64px 0;
+    }
+
+
+    .search_page .data
+    {
+        width: 432px;
+        height: 432px;
+    }
+
+
+    .search_page form
+    {
+        width: 384px;
+        height: 384px;
+        padding: 40px;
+    }
+
+
+    .search_page form:before
+    {
+        width: calc(100% - 40px);
+        height: calc(100% - 40px);
+    }
+
+
+    .search_page form .input
+    {
+        font-size: 20px;
+    }
+
+
+    .search_page form .submit_btn
+    {
+        font-size: 20px;
+    }
+
+
+    .search_page form .close_btn
+    {
+        font-size: 20px;
+
+        bottom: 40px;
+    }
+
+
+    .search_page .mob_exp
+    {
+        font-size: 17px;
+
+        margin-top: 60px;
+    }
+
+
+    .search_page .bg
+    {
+        display: none;
+    }
+}

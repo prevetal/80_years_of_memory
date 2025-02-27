@@ -1,0 +1,296 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*---------------
+        Home page
+    ---------------*/
+    .home_apge .data:before
+    {
+        top: -48px;
+
+        width: 520px;
+        height: 180px;
+    }
+
+
+    .home_apge .title
+    {
+        font-size: 108px;
+    }
+
+
+    .home_apge .title span:before,
+    .home_apge .title span:after
+    {
+        width: 240px;
+        margin-right: 48px;
+    }
+
+    .home_apge .title span:after
+    {
+        margin-right: 0;
+        margin-left: 48px;
+    }
+
+
+    .home_apge .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .home_apge .link
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Numbers
+    -------------*/
+    .numbers .links .btn[data-content='1'] .line2
+    {
+        margin-left: 644px;
+    }
+
+    .numbers .links .btn[data-content='1'] .img
+    {
+        margin-top: 24px;
+        margin-left: 606px;
+    }
+
+    .numbers .links .btn[data-content='1']:hover .line1,
+    .numbers .links .btn[data-content='1'].active .line1
+    {
+        width: 640px;
+    }
+
+    .numbers .links .btn[data-content='1']:hover .line2,
+    .numbers .links .btn[data-content='1'].active .line2
+    {
+        height: 33px;
+    }
+
+
+    .numbers .links .btn[data-content='2'] .line2
+    {
+        margin-left: 207px;
+    }
+
+    .numbers .links .btn[data-content='2'] .img
+    {
+        margin-top: 24px;
+        margin-left: 141px;
+    }
+
+    .numbers .links .btn[data-content='2']:hover .line1,
+    .numbers .links .btn[data-content='2'].active .line1
+    {
+        width: 237px;
+    }
+
+    .numbers .links .btn[data-content='2']:hover .line2,
+    .numbers .links .btn[data-content='2'].active .line2
+    {
+        height: 34px;
+    }
+
+
+    .numbers .links .btn[data-content='3'] .line2
+    {
+        margin-top: 64px;
+        margin-left: 116px;
+    }
+
+    .numbers .links .btn[data-content='3'] .img
+    {
+        margin-top: 43px;
+        margin-left: 616px;
+    }
+
+    .numbers .links .btn[data-content='3']:hover .line1,
+    .numbers .links .btn[data-content='3'].active .line1
+    {
+        width: 140px;
+        height: 76px;
+    }
+
+    .numbers .links .btn[data-content='3']:hover .line2,
+    .numbers .links .btn[data-content='3'].active .line2
+    {
+        width: 468px;
+        height: 20px;
+    }
+
+
+    .numbers .links .btn[data-content='4'] .line2
+    {
+        margin-top: 13px;
+        margin-left: 136px;
+    }
+
+    .numbers .links .btn[data-content='4'] .img
+    {
+        margin-top: 32px;
+        margin-left: 299px;
+    }
+
+    .numbers .links .btn[data-content='4']:hover .line1,
+    .numbers .links .btn[data-content='4'].active .line1
+    {
+        width: 140px;
+        height: 24px;
+    }
+
+    .numbers .links .btn[data-content='4']:hover .line2,
+    .numbers .links .btn[data-content='4'].active .line2
+    {
+        width: 260px;
+        height: 18px;
+    }
+
+
+    .numbers .links .btn[data-content='5'] .img
+    {
+        top: -15px;
+
+        margin-left: 24px;
+    }
+
+    .numbers .links .btn[data-content='5']:hover .line1,
+    .numbers .links .btn[data-content='5'].active .line1
+    {
+        width: 60px;
+    }
+
+
+    .numbers .links .btn[data-content='6'] .line2
+    {
+        margin-left: 112px;
+    }
+
+    .numbers .links .btn[data-content='6'] .img
+    {
+        margin-top: 15px;
+        margin-left: 67px;
+    }
+
+    .numbers .links .btn[data-content='6']:hover .line1,
+    .numbers .links .btn[data-content='6'].active .line1
+    {
+        width: 124px;
+    }
+
+    .numbers .links .btn[data-content='6']:hover .line2,
+    .numbers .links .btn[data-content='6'].active .line2
+    {
+        height: 24px;
+    }
+
+
+    .numbers .content .info
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 24px;
+        padding: 24px 12px 24px 24px;
+
+        gap: 20px;
+    }
+
+
+    .numbers .content .info .desc
+    {
+        width: calc(100% + 13px);
+        margin-left: -13px;
+        padding-left: 12px;
+    }
+
+
+    .numbers .content .slider
+    {
+        width: 100%;
+    }
+
+
+    .numbers .content .full_screen_btn
+    {
+        display: none;
+    }
+
+
+    .numbers .content .slider .image
+    {
+        pointer-events: none;
+    }
+
+
+    .numbers .content .slider .caption
+    {
+        padding: 12px 24px;
+    }
+
+
+    .numbers .content .slider .swiper-button-next,
+    .numbers .content .slider .swiper-button-prev
+    {
+        display: none;
+    }
+
+
+    .numbers .content .slider .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+
+    /*----------------
+        Books page
+    ----------------*/
+    .books_page .link
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------------------
+        Search result page
+    -----------------------*/
+    .search_result_page .link
+    {
+        font-size: 20px;
+
+        margin-top: 80px;
+    }
+
+
+
+    /*-----------------
+        People page
+    -----------------*/
+    .people .person .photo
+    {
+        background-size: 75% auto;
+    }
+
+
+    .people .person .name
+    {
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,86 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*-----------------
+        People page
+    -----------------*/
+    .people .row > *
+    {
+        width: calc(33.333% - 20px);
+    }
+
+
+
+    /*-----------------
+        Search page
+    -----------------*/
+    .search_page .data
+    {
+        margin-top: 0;
+    }
+
+
+    .search_page .tooltip
+    {
+        display: none;
+    }
+
+
+    .search_page .mob_exp
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Numbers
+    -------------*/
+    .numbers
+    {
+        padding-top: 224px;
+    }
+
+
+    .numbers .links .btn .line1,
+    .numbers .links .btn .line2,
+    .numbers .links .btn .img
+    {
+        display: none;
+    }
+
+
+    .numbers .content
+    {
+        width: 100%;
+    }
+
+
+    .numbers .content .close_btn
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .numbers .content .info
+    {
+        padding: 24px;
+    }
+
+
+    .numbers .links
+    {
+        width: 100%;
+    }
+
+    .numbers .links.hide
+    {
+        display: none;
+    }
+}
