@@ -420,7 +420,7 @@ button
 .page_head
 {
     position: relative;
-    z-index: 9;
+    z-index: 3;
     top: 0;
     left: 0;
 
@@ -560,10 +560,6 @@ button
 
     width: 26px;
     height: 40px;
-
-    text-decoration: none;
-
-    color: currentColor;
 }
 
 
@@ -1266,11 +1262,16 @@ button
 
 
 
-/*---------------
-    Menu page
----------------*/
-.menu_page
+/*----------
+    Menu
+----------*/
+.menu
 {
+    position: fixed;
+    z-index: 9;
+    bottom: 100%;
+    left: 0;
+
     display: flex;
     align-content: center;
     align-items: center;
@@ -1278,11 +1279,22 @@ button
     flex-wrap: wrap;
     justify-content: center;
 
+    width: 100%;
+    height: 100%;
+
+    transition: transform .35s linear;
+
     background: url('../images/bg_page_shadow.svg') 50%/100% 100% no-repeat, linear-gradient(180deg, #2c2723 3.9%, #585145 31.01%, #7d7164 99.5%);
 }
 
 
-.menu_page .links
+.menu.show
+{
+    transform: translateY(100%);
+}
+
+
+.menu .links
 {
     font-size: 48px;
     font-weight: 700;
@@ -1295,7 +1307,7 @@ button
 }
 
 
-.menu_page .links .sep
+.menu .links .sep
 {
     width: 100%;
     height: 1px;
@@ -1306,7 +1318,7 @@ button
 }
 
 
-.menu_page .links a
+.menu .links a
 {
     display: block;
 
@@ -1317,7 +1329,7 @@ button
 }
 
 
-.menu_page .links a:hover
+.menu .links a:hover
 {
     color: #dec46b;
 }
@@ -1455,8 +1467,6 @@ button
 .numbers .links .btn .img
 {
     position: absolute;
-
-    pointer-events: none;
 }
 
 
@@ -1842,6 +1852,7 @@ button
 .numbers .content
 {
     position: relative;
+    z-index: 5;
 
     display: none;
 
@@ -2122,8 +2133,12 @@ button
 
 .people .person
 {
-    text-align: center;
+    display: block;
 
+    text-align: center;
+    text-decoration: none;
+
+    color: currentColor;
     background: rgba(65, 59, 49, .70);
 }
 

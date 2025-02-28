@@ -183,6 +183,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 		$('.numbers .links').removeClass('hide')
 	})
+
+
+	// Menu
+	$('.page_head .menu_btn').click(function(e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.menu').toggleClass('show')
+	})
 })
 
 
