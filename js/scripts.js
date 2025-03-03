@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', function() {
 			spaceBetween: 20,
 			scrollbar: {
 				el: '.swiper-scrollbar',
-				hide: false
+				hide: false,
+				draggable: true,
+				snapOnRelease: true,
+				dragSize: '12px',
 			},
 			breakpoints: {
 				0: {
