@@ -548,4 +548,124 @@
     {
         display: none;
     }
+
+
+
+    /*-----------------
+        Person page
+    -----------------*/
+    .person_page
+    {
+        padding: 188px 0 92px;
+    }
+
+
+    .person_page .close_btn
+    {
+        margin-bottom: 0;
+    }
+
+
+    .person_page .name
+    {
+        margin-bottom: 24px;
+        padding-left: 0;
+
+        text-align: center;
+
+        color: #fff;
+    }
+
+
+    .person_page .data
+    {
+        background: none;
+    }
+
+
+    .person_page .mob_img
+    {
+        display: block;
+    }
+
+
+    .person_page .info
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+    .person_page .desc
+    {
+        width: 100%;
+        margin-top: 24px;
+        padding: 0;
+
+        background: none;
+    }
+
+
+    .person_page .desc .img
+    {
+        display: none;
+    }
+
+
+    .person_page .desc .message_btn
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .person_page .desc .message_btn .text
+    {
+        font-size: 14px;
+
+        position: relative;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: calc(100% - 30px);
+        margin: 0;
+        padding: 0;
+
+        transform: none;
+
+        border: none;
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .person_page .desc .message_btn .text:before,
+    .person_page .desc .message_btn .text:after
+    {
+        display: none;
+    }
+
+
+    .person_page .share
+    {
+        justify-content: flex-start;
+    }
+
+
+    .person_page .link
+    {
+        bottom: 24px;
+    }
 }

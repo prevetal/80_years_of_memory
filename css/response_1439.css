@@ -565,4 +565,96 @@
 
         bottom: 48px;
     }
+
+
+
+    /*-----------------
+        Person page
+    -----------------*/
+    .person_page
+    {
+        padding: 176px 0 100px;
+    }
+
+
+    .person_page .data
+    {
+        margin: 0;
+    }
+
+
+    .person_page .close_btn
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .person_page .name
+    {
+        margin-bottom: 24px;
+        padding-left: 32px;
+    }
+
+
+    .person_page .info
+    {
+        width: 50%;
+        padding: 32px;
+    }
+
+
+    .person_page .info .label
+    {
+        font-size: 22px;
+        line-height: 100%;
+    }
+
+
+    .person_page .info .val
+    {
+        margin-top: 8px;
+    }
+
+
+    .person_page .desc
+    {
+        width: 50%;
+        padding: 32px;
+    }
+
+
+    .person_page .desc .message_btn
+    {
+        top: 32px;
+        right: 32px;
+    }
+
+
+    .person_page .desc .img
+    {
+        width: 260px;
+        margin-top: -120px;
+        margin-right: 48px;
+        margin-bottom: 20px;
+        margin-left: 24px;
+    }
+
+
+    .person_page .share
+    {
+        font-size: 22px;
+        line-height: 100%;
+
+        margin-top: 28px;
+
+        gap: 16px;
+    }
+
+
+    .person_page .link
+    {
+        font-size: 22px;
+
+        bottom: 40px;
+    }
 }
